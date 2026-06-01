@@ -1,0 +1,85 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Environment Variables
+
+.env
+
+# Logs
+
+*.log
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Model Files
+
+models/*.pkl
+models/*.joblib
+
+# Dataset Files (Large Files)
+
+data/raw/*
+data/processed/*
+*.csv
+*.csv.gz
+*.zip
+*.parquet
+
+# Keep Folder Structure
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Reports
+
+reports/*.html
+reports/*.pdf
+
+# Coverage
+
+.coverage
+htmlcov/
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Docker
+
+docker-compose.override.yml
+
+# Cache
+
+.pytest_cache/
+.mypy_cache/
+
+# Temporary Files
+
+*.tmp
+*.bak
